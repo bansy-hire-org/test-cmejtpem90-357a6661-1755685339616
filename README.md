@@ -1,2 +1,21 @@
-# test-cmejtpem90-357a6661-1755685339616
-Temporary repository for test cmejtpem90002unnsjkemc128 by user 357a6661-bd21-4a51-b31e-0ed338951b6a
+# IP Licensing Management Tool
+
+A simple web application to manage IP licenses.
+
+## Setup
+
+1.  **Backend:**
+    *   Navigate to the `backend` directory.
+    *   Run `go mod download` to download dependencies.
+    *   Run `go run main.go` to start the server on port 8000.
+
+2.  **Frontend:**
+    *   Navigate to the `frontend` directory.
+    *   Run `npm install` to install dependencies.
+    *   Run `npm start` to start the React application on port 3000.
+
+## Running Tests
+
+1.  **Backend:**
+    *   Navigate to the `backend` directory.
+    *   Run `go test` to execute the unit tests.
